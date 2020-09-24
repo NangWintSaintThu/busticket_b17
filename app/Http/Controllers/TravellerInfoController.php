@@ -74,7 +74,7 @@ class TravellerInfoController extends Controller
         $booking_detail->total=$request->total;
         $booking_detail->departure_date=$request->departure_date;
         $booking_detail->save();
-        return redirect()->route('homepage')->with('message','Booking Success!');
+        return redirect()->route('homepage')->with('message','Your Booking Successful!');
     }
 
     /**
